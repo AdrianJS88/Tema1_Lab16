@@ -15,7 +15,7 @@ public class ThreadApp implements Runnable  {
 
 
         //create 5 search threads
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 5; i++) {
 
             Thread thread = new Thread(new ThreadApp());
             thread.start();
